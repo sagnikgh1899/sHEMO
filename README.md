@@ -4,7 +4,7 @@
 Computer Vision, Medical Imaging, Machine Learning, Software Programming
 
 # Requirements
-Python 3.6, OpenCV 4, Microsoft Excel 2013
+Python 3.6, OpenCV 4.0, Microsoft Excel 2013
 
 # A Brief Overview
 Anemia occurs due to low blood hemoglobin levels, and for its mass screening, both invasive and smart anemia-care techniques are used. However, significant drawbacks include high costs, lack of state-of-the-art facilities, invasive techniques, and lack of smartphone implementation, using additional equipment and non-autonomous functioning, for smart anemia-care techniques. The paper proposes a novel, autonomous, smart anemia-care technique to address these problems in the form of a spectroscopy based blood hemoglobin level monitoring model. This approach uses a smartphone camera as a sensor. It quantifies the hemoglobin level based on the region of interest’s color spectroscopy, which is the conjunctival pallor, extracted autonomously. Anemia is diagnosed if the predicted hemoglobin level is < 11.5 g dL−1. For easy smartphone implementation, the proposed model uses image analysis techniques to estimate the hemoglobin level. Our model reports an accuracy of ±0.32 g dL−1, sensitivity of 89% compared to the actual blood hemoglobin levels (n = 65 participants). Also, the model remains robust to a wide range of illumination and the type of device used. It thereby establishes itself as a reliable and suitable replacement for the blood-based laboratory hemoglobin tests by leveraging the feature of at-home diagnosis of anemia.
@@ -83,7 +83,7 @@ Small rectangles from the obtained ROI are extracted and the RGB values from the
 </p>
 
 ## Effectiveness of the Proposed Modified Canny Edge  Detection Technique
-We have compared all the edge detection techniques namely Canny Edge, Modified Canny Edge, Holistically Nested Edge Detection, Sobel X, Sobel Y. The best results have been given by Modified Canny Edge Detection.Following shows the comparison between traditional canny edge and our proposed modified canny edge.
+We have compared all the edge detection techniques namely Canny Edge, Modified Canny Edge, Holistically Nested Edge Detection, Sobel X, Sobel Y. The best results have been given by Modified Canny Edge Detection. Following shows the comparison between traditional canny edge and our proposed modified canny edge.
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/59502132/143023062-e200f6f8-ea1b-4df6-97aa-f13ee3fb385a.png">
 </p>
